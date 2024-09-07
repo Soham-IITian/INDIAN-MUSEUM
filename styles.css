@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-pane {
+    width: 30%;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.footer-pane h3 {
+    margin-top: 0;
+}
+
+.footer-pane a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-pane a:hover {
+    text-decoration: underline;
+}
+
+/* Video & Map Thumbnails */
+.video-thumbnail, .map-thumbnail {
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.video-thumbnail:hover, .map-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Copyright */
+footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #bbb;
+}
